@@ -1,4 +1,4 @@
-# PowerCo Customer Churn Analysis Prediction with Machine Learning
+# PowerCo Churn Analysis & Prediction using Machine Learning
 ![GitHub](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub](https://img.shields.io/badge/Model-Voting_Classifier-purple)
 ![GitHub](https://img.shields.io/badge/Library-Scikit_Learn-Green)
