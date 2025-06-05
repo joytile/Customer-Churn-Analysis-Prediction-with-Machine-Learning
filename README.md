@@ -9,7 +9,7 @@ PowerCo is a major gas and electricity company concerned about losing customers.
 
 Our leading hypothesis is: 'Does price sensitivity affect churn?'
 
-# Key insights💡
+## Key insights💡
 - Net margin on power subscription and consumption over 12 months are the top drivers for churn in this model. This suggests that customers with lower margins (likely high-cost users) are more likely to churn.
 - Forecasted electricity consumption and overall net margins are also influential drivers.
 - Time seems to be an influential factor, especially the number of months they have been active, their tenure and the number of months since they updated their contract
@@ -23,7 +23,7 @@ Although price sensitivity is considered a potential driver of churn, feature im
 
 ![Chart](https://github.com/joytile/Customer-Churn-Analysis-and-Prediction-with-Machine-Learning/blob/main/feature_importances.png)
 
-# Rceommendations 👌
+## Rceommendations 👌
 - Discount strategy of 20% offered to high-value customers with high churn probability: By targeting high-value customers with high churn probability, a 20% discount could potentially reduce churn and increase retention.
 - Further analysis on customer demographics or introducing targeted campaigns for customers based on usage patterns may help improve customer retention.
 
