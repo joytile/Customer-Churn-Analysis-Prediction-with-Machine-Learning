@@ -9,6 +9,24 @@ PowerCo is a major gas and electricity company concerned about losing customers.
 
 Our leading hypothesis is: 'Does price sensitivity affect churn?'
 
+# Key insights💡
+- Net margin on power subscription and consumption over 12 months are the top drivers for churn in this model. This suggests that customers with lower margins (likely high-cost users) are more likely to churn.
+- Forecasted electricity consumption and overall net margins are also influential drivers.
+- Time seems to be an influential factor, especially the number of months they have been active, their tenure and the number of months since they updated their contract
+- Our price sensitivity features are scattered around but are not the main drivers of customer churning.
+
+The last observation is important because this relates back to our original hypothesis:
+
+    > Is churn driven by the customers' price sensitivity?
+
+Although price sensitivity is considered a potential driver of churn, feature importance analysis in the chart below indicates it is a weak contributor rather than the main driver.
+
+![Chart](https://github.com/joytile/Customer-Churn-Analysis-and-Prediction-with-Machine-Learning/blob/main/feature_importances.png)
+
+# Rceommendations 👌
+- Discount strategy of 20% offered to high-value customers with high churn probability: By targeting high-value customers with high churn probability, a 20% discount could potentially reduce churn and increase retention.
+- Further analysis on customer demographics or introducing targeted campaigns for customers based on usage patterns may help improve customer retention.
+
 ## Dataset 📂
 The dataset is contained in the 'client_data.csv' and 'price_data.csv'
 
@@ -30,20 +48,3 @@ The dataset is contained in the 'client_data.csv' and 'price_data.csv'
 ### 4. Model Evaluation
 - **Metrics**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 
-
-# Key insights💡
-- Net margin on power subscription and consumption over 12 months are the top drivers for churn in this model. This suggests that customers with lower margins (likely high-cost users) are more likely to churn.
-- Forecasted electricity consumption and overall net margins are also influential drivers.
-- Time seems to be an influential factor, especially the number of months they have been active, their tenure and the number of months since they updated their contract
-- Our price sensitivity features are scattered around but are not the main drivers of customer churning.
-
-The last observation is important because this relates back to our original hypothesis:
-
-    > Is churn driven by the customers' price sensitivity?
-
-Although price sensitivity is considered a potential driver of churn, feature importance analysis in the chart below indicates it is a weak contributor rather than the main driver.
-
-![Chart](https://github.com/joytile/Customer-Churn-Analysis-and-Prediction-with-Machine-Learning/blob/main/feature_importances.png)
-# Rceommendations 👌
-- Discount strategy of 20% offered to high-value customers with high churn probability: By targeting high-value customers with high churn probability, a 20% discount could potentially reduce churn and increase retention.
-- Further analysis on customer demographics or introducing targeted campaigns for customers based on usage patterns may help improve customer retention.
